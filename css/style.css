@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(228, 226, 226);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+.card-header {
+    text-align: center;
+    margin: auto 0;
+}
+
+.card-header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #0096c7 50%, #023e8a 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-body {
+    margin: 20px;
+}
+
+.content-form label {
+    display: block;
+    color: #747474;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font: optional;
+}
+
+.content-form input {
+    width: 100%;
+    border: 1px solid #c9c5c5;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-footer .forget a {
+    text-decoration: none;
+    color: #0096c7;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #0096c7;
+    color: azure;
+    border: 0;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.profile-body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #023e8a;
+}
+
+.profile-body h1 {
+    margin-top: 5px;
+}
+
+.profile-body h5 {
+    color: #909090;
+}
+
+.profile-body p {
+    width: 70%;
+    margin: 0 auto;
+    color: #232323;
+}
+
+.icon {
+    margin: 20px;
+    text-align: center;
+}
+
+.icon svg {
+    margin-left: 10px;
+}
+
+/* table page */
+.page-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.page-table th {
+    background-color: #a7c957;
+    color: #ffffff;
+}
+
+.page-table td,
+th {
+    border: 1px solid #7a9340;
+    text-align: left;
+    padding: 8px;
+}
+
+.page-table tr:nth-child(even) {
+    background-color: #f2e8cf;
+    color: #252424;
+}
+
+.ticket-page {
+    border: 10px solid #515151;
+    padding: 10px;
+    width: 500px;
+}
+.ticket-page td{
+    padding: 5px;
+}
+
+.ticket-page th {
+    border: 0;
+}
+.card-title{
+    color: #9b9a9a;
+}
+.ticketCard {
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.2);
+    background-color: #d7d7d7;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.name h5 i{
+  color: #3cb631bd;
+}
+.ticketCard h5{
+    margin: 0;
+    color: #a3a056de;
+    font-size:medium;
+}
+.name span{
+color: #ab0808;
+font-weight: bold;
+font-size: medium;
+}
+.ticketCard h6{
+    margin: 0;
+    color: #9b9b9ade;
+   }
